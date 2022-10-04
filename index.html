@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DAY 5</title>
+</head>
+<body>
+    <h1>CSS INTERVIEW QUESTIONS</h1>
+    <b>Ques 1.Show implementation of transition</b>
+    <p><b>Ans.</b>
+            <div class="transition"></div>
+    </p>
+
+    <b>Ques 2.Show implementation of transformation</b>
+    <p><b>Ans.</b>
+            <div class="transformation"></div>
+    </p>
+
+    <b>Ques 3.Show implementation of grid</b>
+    <p><b>Ans.</b>
+        <div class="container">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </div>
+    </p>
+    <br><br><br>
+    <br><br>
+
+    <b>Ques 4.What are CSS combinators </b>
+    <p><b>Ans.</b>
+        <b>Combinators combine the selectors to provide them a useful relationship and the position of content in the document. This comes in handy when you want to style certain elements all at once rather than styling elements individually. CSS combinator selectors are as follows.
+        Descendant Selector (space)
+        Child Selector (>)
+        Adjacent Sibling Selector (+)
+        General Sibling Selector (~)
+        
+        Descendant Selector :  The descendant selector matches all elements that are descendants of a specified element.</b>
+        <br><br>
+        <b>Descendant selector :</b>
+        <br>
+        <div class="Descendant">
+            <h2>Hello World!</h2>
+            <p>I am child paragraph</p>
+            <p>I am child paragraph</p>
+           </div>
+
+       <b>Child Selector :   The child selector will only affect elements under a direct parent. A good way to remember this is that a child will only listen to its direct parents.</b>
+
+       <div class="Child">
+        <h2>This heading is a direct child of the div tag.</h2>
+        <p>So is this paragraph tag.</p>
+        <button>
+            <p>This paragraph tag is NOT a direct child of the first div</p>
+        </button>
+        <p>This paragraph tag is also a child of the div tag</p>
+    </div>
+    
+    <b>Adjacent Sibling Selector :   To use the adjacent sibling selector in your CSS stylesheet, you simply need the plus (+) sign. The adjacent sibling selector is used to select an element that is directly after another specific element.</b>
+        
+    
+    <div class="Adjacent">
+        <h2>This is a H2 tag.</h2>
+        <p>This p tag immediately follows the heading.</p>
+        <button>
+            <p>This p tag is NOT immediately following a H2 tag.</p>
+        </button>
+        <h2>Howdy! This is another H2 tag.</h2>
+        <p>This p tag is after another H2 tag and gets formatted.</p>
+    </div>
+
+    <b>General Sibling Selectors :The general sibling selector follows through on all elements under the targeted HTML element selected. This means that if another element tag interrupts the direct adjacent flow, the style rules can still follow through.</b>
+
+    <div class="General">
+        <h2>I am heading tag!</h2>
+        <p>I am paragraph tag 1.</p>
+        <button>
+            <p>I am a paragraph tag inside a button!</p>
+        </button>
+        <p>I am paragraph tag 2.</p>
+        <p>I am paragraph tag 3.</p>
+        <h3>I am another heading tag!</h3>
+        <p>I am paragraph tag 4.</p>
+    </div>
+
+     </p>
+
+    <b>Ques 5.What are pseudo selectors in CSS</b> 
+    <p><b>Ans.</b>
+        <b>CSS pseudo-classes are used to add styles to selectors, but only when those selectors meet certain conditions. A pseudo class is expressed by adding a colon (:) after a selector in CSS, followed by a pseudo-class such as "hover", "focus", or "active", like this:</b>
+
+    </p>
+</body>
+</html>
